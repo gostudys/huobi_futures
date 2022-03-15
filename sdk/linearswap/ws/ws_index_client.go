@@ -22,6 +22,37 @@ func (wsIx *WSIndexClient) Init(host string) *WSIndexClient {
 }
 
 // -------------------------------------------------------------
+// index kline start
+type OnSubIndexKLineResponse func(*index.SubIndexKLineResponse)
+type OnReqIndexKLineResponse func(*index.ReqIndexKLineResponse)
+
+func (wsIx *WSIndexClient) SubIndexKLine(contractCode string, period string, callbackFun OnSubIndexKLineResponse, id string) {
+	if id == "" {
+		id = linearswap.DEFAULT_ID
+	}
+	ch := fmt.Sprintf("market.%s.index.%s", contractCode, period)
+	subData := wsbase.WSSubData{Sub: ch, Id: id}
+	jdata, _ := json.Marshal(subData)
+
+	wsIx.sub(jdata, ch, callbackFun, reflect.TypeOf(index.SubIndexKLineResponse{}))
+}
+
+func (wsIx *WSIndexClient) ReqIndexKLine(contractCode string, period string, callbackFun OnReqIndexKLineResponse,
+	from int64, to int64, id string) {
+	if id == "" {
+		id = linearswap.DEFAULT_ID
+	}
+	ch := fmt.Sprintf("market.%s.index.%s", contractCode, period)
+	reqData := wsbase.WSReqData{Req: ch, Id: id, From: from, To: to}
+	jdata, _ := json.Marshal(reqData)
+
+	wsIx.req(jdata, ch, callbackFun, reflect.TypeOf(index.ReqIndexKLineResponse{}))
+}
+
+// index kline end
+//-------------------------------------------------------------
+
+// -------------------------------------------------------------
 // premium index kline start
 type OnSubPremiumIndexKLineResponse func(*index.SubIndexKLineResponse)
 type OnReqPremiumIndexKLineResponse func(*index.ReqIndexKLineResponse)

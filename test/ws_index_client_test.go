@@ -13,6 +13,20 @@ func init() {
 	wsixClient = new(ws.WSIndexClient).Init("")
 }
 
+func TestWSIndexClient_SubIndexKLine(t *testing.T) {
+	wsixClient.SubIndexKLine("BTC-USDT", "1min", func(m *index.SubIndexKLineResponse) {
+		t.Log(*m)
+	}, "")
+	time.Sleep(time.Duration(20) * time.Second)
+}
+
+func TestWSIndexClient_ReqIndexKLine(t *testing.T) {
+	wsixClient.ReqIndexKLine("BTC-USDT", "1min", func(m *index.ReqIndexKLineResponse) {
+		t.Log(*m)
+	}, 1604395758, 1604396758, "")
+	time.Sleep(time.Duration(20) * time.Second)
+}
+
 func TestWSIndexClient_SubPremiumIndexKLine(t *testing.T) {
 	wsixClient.SubPremiumIndexKLine("BTC-USDT", "15min", func(m *index.SubIndexKLineResponse) {
 		t.Log(*m)
