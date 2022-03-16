@@ -1,9 +1,9 @@
 package test
 
 import (
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/restful"
-	requestorder "github.com/xiaomy1024/huobi_futures/sdk/linearswap/restful/request/order"
-	responseorder "github.com/xiaomy1024/huobi_futures/sdk/linearswap/restful/response/order"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/restful"
+	requestorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/request/order"
+	responseorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/order"
 	"testing"
 )
 

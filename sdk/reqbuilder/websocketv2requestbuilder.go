@@ -2,7 +2,7 @@ package reqbuilder
 
 import (
 	model2 "github.com/huobirdcenter/huobi_golang/pkg/model"
-	"github.com/xiaomy1024/huobi_futures/sdk/reqbuilder/model"
+	"github.com/gostudys/huobi_futures/sdk/reqbuilder/model"
 	"time"
 )
 

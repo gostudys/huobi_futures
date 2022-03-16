@@ -3,9 +3,9 @@ package ws
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/ws/response/market"
-	"github.com/xiaomy1024/huobi_futures/sdk/wsbase"
+	"github.com/gostudys/huobi_futures/sdk/linearswap"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/ws/response/market"
+	"github.com/gostudys/huobi_futures/sdk/wsbase"
 	"reflect"
 )
 

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"fmt"
 	"github.com/huobirdcenter/huobi_golang/logging/applogger"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/ws"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/ws/response/notify"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/ws"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/ws/response/notify"
 )
 
 // Responsible to handle Trade data from WebSocket

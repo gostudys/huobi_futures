@@ -1,7 +1,7 @@
 package reqbuilder
 
 import (
-	"github.com/xiaomy1024/huobi_futures/sdk/log"
+	"github.com/gostudys/huobi_futures/sdk/log"
 	"io/ioutil"
 	"net/http"
 	"strings"

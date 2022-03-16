@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/restful"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/restful/response/market"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/restful"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/market"
 	"testing"
 )
 

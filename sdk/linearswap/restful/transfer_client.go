@@ -3,10 +3,10 @@ package restful
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap"
-	"github.com/xiaomy1024/huobi_futures/sdk/linearswap/restful/response/transfer"
-	"github.com/xiaomy1024/huobi_futures/sdk/log"
-	"github.com/xiaomy1024/huobi_futures/sdk/reqbuilder"
+	"github.com/gostudys/huobi_futures/sdk/linearswap"
+	"github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/transfer"
+	"github.com/gostudys/huobi_futures/sdk/log"
+	"github.com/gostudys/huobi_futures/sdk/reqbuilder"
 )
 
 type TransferClient struct {
