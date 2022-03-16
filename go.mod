@@ -1,4 +1,4 @@
-module github.com/xiaomy1024/huobi_futures
+module github.com/gostudys/huobi_futures
 
 go 1.15
 
