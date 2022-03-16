@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/gostudys/huobi_futures/sdk/linearswap/ws"
-	"github.com/gostudys/huobi_futures/sdk/linearswap/ws/response/notify"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap/ws"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap/ws/response/notify"
 	"testing"
 	"time"
 )

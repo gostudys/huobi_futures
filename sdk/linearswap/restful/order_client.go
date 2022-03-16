@@ -3,11 +3,11 @@ package restful
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gostudys/huobi_futures/sdk/linearswap"
-	requestorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/request/order"
-	responseorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/order"
-	"github.com/gostudys/huobi_futures/sdk/log"
-	"github.com/gostudys/huobi_futures/sdk/reqbuilder"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap"
+	requestorder "github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/request/order"
+	responseorder "github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/response/order"
+	"github.com/gostudys/huobi_futures_go/sdk/log"
+	"github.com/gostudys/huobi_futures_go/sdk/reqbuilder"
 )
 
 type OrderClient struct {

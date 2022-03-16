@@ -1,9 +1,9 @@
 package test
 
 import (
-	"github.com/gostudys/huobi_futures/sdk/linearswap/restful"
-	requesttiggerorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/request/triggerorder"
-	responsetriggerorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/triggerorder"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap/restful"
+	requesttiggerorder "github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/request/triggerorder"
+	responsetriggerorder "github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/response/triggerorder"
 	"testing"
 )
 

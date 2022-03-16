@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/gostudys/huobi_futures/sdk/linearswap/restful"
-	"github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/account"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap/restful"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/response/account"
 	"testing"
 )
 

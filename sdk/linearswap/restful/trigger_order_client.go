@@ -3,11 +3,11 @@ package restful
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/gostudys/huobi_futures/sdk/linearswap"
-	requesttiggerorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/request/triggerorder"
-	responsetriggerorder "github.com/gostudys/huobi_futures/sdk/linearswap/restful/response/triggerorder"
-	"github.com/gostudys/huobi_futures/sdk/log"
-	"github.com/gostudys/huobi_futures/sdk/reqbuilder"
+	"github.com/gostudys/huobi_futures_go/sdk/linearswap"
+	requesttiggerorder "github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/request/triggerorder"
+	responsetriggerorder "github.com/gostudys/huobi_futures_go/sdk/linearswap/restful/response/triggerorder"
+	"github.com/gostudys/huobi_futures_go/sdk/log"
+	"github.com/gostudys/huobi_futures_go/sdk/reqbuilder"
 )
 
 type TriggerOrderClient struct {

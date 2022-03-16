@@ -1,4 +1,4 @@
-module github.com/gostudys/huobi_futures
+module github.com/gostudys/huobi_futures_go
 
 go 1.15
 

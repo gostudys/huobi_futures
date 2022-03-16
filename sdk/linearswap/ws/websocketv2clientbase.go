@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"github.com/gorilla/websocket"
 	"github.com/huobirdcenter/huobi_golang/logging/applogger"
-	"github.com/gostudys/huobi_futures/sdk/reqbuilder"
+	"github.com/gostudys/huobi_futures_go/sdk/reqbuilder"
 	"sync"
 	"time"
 )
